@@ -1,10 +1,12 @@
-import '../utils/css/style.css';
+import { Header } from '../components/header/Header';
+import { Container } from './Home.Styled';
 
 function App() {
   return (
-    <>
-    <h1>Home</h1>
-    </>
+    <Container>
+      <Header />
+      <h1>Home</h1>
+    </Container>
   );
 }
 
