@@ -1,4 +1,5 @@
 import { Header } from '../components/header/Header';
+import { Portfolio } from '../components/portfolio/Portfolio';
 import { SobreMin } from '../components/sobreMim/SobreMin';
 import { Container } from './Home.Styled';
 
@@ -9,6 +10,7 @@ function App() {
       <div className='header-container'>
         <Header />
       </div>
+      <Portfolio />
     </Container>
   );
 }

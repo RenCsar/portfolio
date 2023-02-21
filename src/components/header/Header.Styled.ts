@@ -10,7 +10,8 @@ export const Container = styled.div`
     ${flexCenter};
     justify-content: space-between;
     width: 100%;
-    padding: 20px 25px;
+    padding: 10px 25px;
+    background-color: var(--preto-bg);
 
     & .logo-container {
         & img {
