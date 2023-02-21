@@ -6,7 +6,8 @@ export const Section = styled.section`
     align-items: center;
     flex-direction: column;
     margin-top: 100px;
-
+    background: url('https://i.imgur.com/XHHcits.png');
+    
     > h1 {
         color: var(--verde);
         font-size: 32px;

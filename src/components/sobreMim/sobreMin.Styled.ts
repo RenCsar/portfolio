@@ -40,7 +40,7 @@ export const Container = styled.section`
 
             & img {
                 height: 400px;
-                width: 442px;
+                width: 420px;
             }
         }
     }    

@@ -1,5 +1,5 @@
 import { Container } from './sobreMin.Styled'
-import Perfil from '../../assets/bloob-renan.svg'
+import Perfil from '../../assets/bloob-renan.webp'
 import Button from '../button/Button'
 
 export const SobreMin = () => {
