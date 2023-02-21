@@ -15,7 +15,6 @@ export const Section = styled.section`
     }
     
     & .carousel-container {
-        background-color: red;
         height: 530px;
         width: 100%;
         margin-bottom: 20px;
