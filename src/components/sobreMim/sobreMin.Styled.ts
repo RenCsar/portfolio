@@ -4,7 +4,7 @@ export const Container = styled.section`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 50px;
+    padding: 0px 100px;
     height: 604px;
 
     & .text-container{
@@ -28,21 +28,20 @@ export const Container = styled.section`
         }
 
         & .button-container {
-            margin-top: 20px;
+            margin-top: 25px;
         }
         
-    }
-    
+    }    
     
     & .img-container {        
         
         & .foto-container {
-            height: 450px;
+            height: 400px;
 
             & img {
-                height: 450px;
+                height: 400px;
                 width: 442px;
             }
         }
-    }
+    }    
 `

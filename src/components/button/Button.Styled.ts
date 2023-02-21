@@ -6,7 +6,7 @@ export const Container = styled.div`
         color: var(--branco);
         border: none;
         border-radius: 8px;
-        height: 30px;
+        height: 35px;
         padding: 0px 20px;
         cursor: pointer;
 

@@ -12,7 +12,7 @@ export const SobreMin = () => {
                 <p>Hello,</p>
                 <h1>Eu sou o Renan Cesar</h1>
                 <div className='descricao'>
-                    <p>Sou formado em análise e Desenvolvimento de sistemas e estou me dedicando as tecnologias frontend. Adoro e tenho muita vontade de aprender coisas novas e trabalhar em equipe.</p>
+                    <p>Sou formado em análise e Desenvolvimento de sistemas e estou me dedicando as tecnologias frontend. Adoro aprender novas tecnologias e trabalhar em equipe.</p>
                 </div>
                 <div className='button-container'>
                     <Button texto="Entre em contato" link={linkContato} />
