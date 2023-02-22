@@ -29,8 +29,8 @@ export const Container = styled.header`
       width: 300px;
 
       & li {
-        & a {
-          text-decoration: none;
+        & .nav-item {
+          cursor: pointer;
           color: white;
         }
       }
