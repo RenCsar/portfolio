@@ -9,10 +9,10 @@ const Footer = () => {
         <Container>
             <div className="icon-container">
                 <a href="https://www.linkedin.com/in/renan-cesar/" target={'blank'}>
-                    <AiOutlineLinkedin size={50} fill={'white'}/>
+                    <AiOutlineLinkedin size={50} fill={'white'} />
                 </a>
-                <a href="https://github.com/renCsar" target={'blank'}>                    
-                    <VscGithub size={41} fill={'white'}/>
+                <a href="https://github.com/renCsar" target={'blank'}>
+                    <VscGithub size={41} fill={'white'} />
                 </a>
             </div>
             <p>Made by Renan Cesar - 2022</p>
