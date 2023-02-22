@@ -1,3 +1,4 @@
+import Contato from '../components/contato/Contato';
 import { Header } from '../components/header/Header';
 import { Portfolio } from '../components/portfolio/Portfolio';
 import { SobreMin } from '../components/sobreMim/SobreMin';
@@ -11,6 +12,7 @@ function App() {
         <Header />
       </div>
       <Portfolio />
+      <Contato />
     </Container>
   );
 }

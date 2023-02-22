@@ -1,5 +1,5 @@
 import Carousel from '../carousel/Carousel'
-import { Section } from './portifolio.Styled'
+import { Section } from './Portfolio.Styled'
 
 export const Portfolio = () => {
   return (

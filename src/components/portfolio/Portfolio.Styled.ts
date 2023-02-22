@@ -5,7 +5,7 @@ export const Section = styled.section`
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 100px;
+    margin: 100px 0px;
     background: url('https://i.imgur.com/XHHcits.png');
     
     > h1 {

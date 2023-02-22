@@ -8,5 +8,6 @@ export const Container = styled.div`
     & .header-container {
         position: sticky;
         top: 0;
+        z-index: 9;
     }
 `
