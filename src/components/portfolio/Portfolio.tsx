@@ -3,7 +3,7 @@ import { Section } from './Portfolio.Styled'
 
 export const Portfolio = () => {
   return (
-    <Section>
+    <Section id='portfolio'>
       <h1>Portfólio</h1>
       <div className='carousel-container'>
         <Carousel />

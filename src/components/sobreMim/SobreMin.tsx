@@ -7,7 +7,7 @@ export const SobreMin = () => {
     const linkContato: string = 'https://api.whatsapp.com/send?phone=5521990926768&text=sua%20mensagem';
 
     return (
-        <Container>
+        <Container id='sobremin'>
             <div className='text-container'>
                 <p>Hello,</p>
                 <h1>Eu sou o Renan Cesar</h1>

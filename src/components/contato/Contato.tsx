@@ -7,7 +7,7 @@ const Contato = () => {
   const LinkCVC: string = 'https://drive.google.com/u/0/uc?id=15JVW-J7qhSexhWz7m4MpUJwnvmbCUe4q&export=download'
 
   return (
-    <Container>
+    <Container id='contato'>
       <h2>Contato</h2>
       <div className='content'>
         <div>

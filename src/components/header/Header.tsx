@@ -10,9 +10,9 @@ export const Header = () => {
       <div className="nav-container">
         <nav>
           <ul>
-            <li><a href="http://">Sobre mim</a></li>
-            <li><a href="http://">Portfólio</a></li>
-            <li><a href="http://">Contato</a></li>
+            <li><a href="#sobremin">Sobre mim</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </nav>
       </div>
