@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Imagem from '../../assets/img-projetos/tech-shopping.png'
 
 export const Container = styled.div`
     width: 100%;
@@ -23,7 +24,21 @@ export const Container = styled.div`
         height: 100%;
         display: flex;
         justify-content: center;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         background-color: #5280E2;
+
+        & .tec-container{
+            color: var(--branco);
+            display: flex;
+            gap: 10px;
+            
+            & .item-container {
+                border: 1px solid var(--branco);
+                padding: 1px 6px;
+                border-radius: 16px;
+            }
+        }
     }
 `

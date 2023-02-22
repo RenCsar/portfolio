@@ -1,17 +1,14 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-// import "./styles.css";
-
-// import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
 import { Container } from "./Carousel.Styled";
+import projetos from '../../utils/projetos.json'
+import { TProjetos } from "../../utils/types/types";
+import Imagem from '../../assets/img-projetos/tech-shopping.png'
 
 export default function Carousel() {
   return (
@@ -31,15 +28,25 @@ export default function Carousel() {
         loop={true}
         className="mySwiper"
       >
-        <SwiperSlide className="slide">Slide 1</SwiperSlide>
-        <SwiperSlide className="slide">Slide 2</SwiperSlide>
-        <SwiperSlide className="slide">Slide 3</SwiperSlide>
-        <SwiperSlide className="slide">Slide 4</SwiperSlide>
-        <SwiperSlide className="slide">Slide 5</SwiperSlide>
-        <SwiperSlide className="slide">Slide 6</SwiperSlide>
-        <SwiperSlide className="slide">Slide 7</SwiperSlide>
-        <SwiperSlide className="slide">Slide 8</SwiperSlide>
-        <SwiperSlide className="slide">Slide 9</SwiperSlide>
+        {projetos.map((el: TProjetos, index: number) =>
+          <SwiperSlide
+           className="slide"
+           key={`${el.nome}-${index}`}
+           style={{
+            background: `url(${el.imgBg})`,
+            backgroundSize: 'cover'
+          }}
+           >
+            {el.nome}
+            <div className="tec-container">
+              {el.tecnologias.map((elem: string) =>
+                <div className="item-container">
+                  <p>{elem}</p>
+                </div>
+              )}
+            </div>
+          </SwiperSlide>
+        )}
       </Swiper>
     </Container>
   );

@@ -4,9 +4,10 @@ export const Section = styled.section`
     padding: var(--padding-central);
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    margin: 100px 0px;
     background: url('https://i.imgur.com/XHHcits.png');
+    height: 800px;
     
     > h1 {
         color: var(--verde);
