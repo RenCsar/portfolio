@@ -1,4 +1,5 @@
 import Contato from '../components/contato/Contato';
+import Footer from '../components/footer/Footer';
 import { Header } from '../components/header/Header';
 import { Portfolio } from '../components/portfolio/Portfolio';
 import { SobreMin } from '../components/sobreMim/SobreMin';
@@ -13,6 +14,7 @@ function App() {
       </div>
       <Portfolio />
       <Contato />
+      <Footer />
     </Container>
   );
 }

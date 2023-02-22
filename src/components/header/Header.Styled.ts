@@ -6,7 +6,7 @@ const flexCenter = `
     align-items: center;
 `
 
-export const Container = styled.div`
+export const Container = styled.header`
     ${flexCenter};
     justify-content: space-between;
     width: 100%;

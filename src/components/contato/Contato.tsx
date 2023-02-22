@@ -1,5 +1,6 @@
 import Button from '../button/Button'
 import { Container } from './Contato.Styled'
+import { TbFileText } from 'react-icons/tb';
 
 const Contato = () => {
 
@@ -13,7 +14,10 @@ const Contato = () => {
       </p>
       <Button texto='Entre em contato' link={linkContato}/>
       <p>Ou</p>
-      <p>Baixar meu currículo completo</p>
+      <p>      
+        <TbFileText size={25}/>
+        Baixar meu currículo completo
+      </p>
     </Container>
   )
 }
