@@ -1,37 +1,60 @@
 [
-    {
-      "nome": "Tech Shopping",
-      "tecnologias": ["React JS", "Typescript", "Node JS", "Express"],
-      "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
-      "img": "https://i.imgur.com/ALeTcE5.png",
-      "imgBg": "https://i.imgur.com/DlDfIKr.png"
-    },
-    {
-      "nome": "Clone Netflix",
-      "tecnologias": ["HTML", "CSS", "Javascript", "JQuery"],
-      "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
-      "img": "https://i.imgur.com/8yOe8aW.png",
-      "imgBg": "https://i.imgur.com/sag2mR1.png"
-    },
-    {
-      "nome": "Poke Store",
-      "tecnologias": ["React JS", "Redux", "Chakra UI"],
-      "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
-      "img": "https://i.imgur.com/O4dbfrc.png",
-      "imgBg": "https://i.imgur.com/a2DzLDT.png"
-    },
-    {
-      "nome": "Enzo Filmes",
-      "tecnologias": ["React JS", "Typescript", "Node JS", "Express"],
-      "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
-      "img": "https://i.imgur.com/tIacuNi.png",
-      "imgBg": "https://i.imgur.com/x5lpxeR.png"
-    },
-    {
-      "nome": "Remind",
-      "tecnologias": ["HTML", "CSS", "Javascript"],
-      "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
-      "img": "https://i.imgur.com/T9w2YJz.png",
-      "imgBg": "https://imgur.com/X9OvbuA.png"
-    }
-  ]
+  {
+    "nome": "Tech Shopping",
+    "tecnologias": [
+      "React JS",
+      "Typescript",
+      "Node JS",
+      "Express"
+    ],
+    "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
+    "img": "https://i.imgur.com/ALeTcE5.png",
+    "imgBg": "https://i.imgur.com/DlDfIKr.png"
+  },
+  {
+    "nome": "Clone Netflix",
+    "tecnologias": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "JQuery"
+    ],
+    "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
+    "img": "https://i.imgur.com/8yOe8aW.png",
+    "imgBg": "https://i.imgur.com/sag2mR1.png"
+  },
+  {
+    "nome": "Poke Store",
+    "tecnologias": [
+      "React JS",
+      "Redux",
+      "Chakra UI"
+    ],
+    "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
+    "img": "https://i.imgur.com/O4dbfrc.png",
+    "imgBg": "https://i.imgur.com/a2DzLDT.png"
+  },
+  {
+    "nome": "Enzo Filmes",
+    "tecnologias": [
+      "React JS",
+      "Typescript",
+      "Node JS",
+      "Express"
+    ],
+    "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
+    "img": "https://i.imgur.com/tIacuNi.png",
+    "imgBg": "https://i.imgur.com/x5lpxeR.png"
+  },
+  {
+    "nome": "Remind",
+    "tecnologias": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ],
+    "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
+    "img": "https://i.imgur.com/T9w2YJz.png",
+    "imgBg": "https://imgur.com/X9OvbuA.png"
+  }
+]

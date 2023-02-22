@@ -8,7 +8,6 @@ import "swiper/css/navigation";
 import { Container } from "./Carousel.Styled";
 import projetos from '../../utils/projetos.json'
 import { TProjetos } from "../../utils/types/types";
-import Imagem from '../../assets/img-projetos/tech-shopping.png'
 
 export default function Carousel() {
   return (
@@ -30,13 +29,13 @@ export default function Carousel() {
       >
         {projetos.map((el: TProjetos, index: number) =>
           <SwiperSlide
-           className="slide"
-           key={`${el.nome}-${index}`}
-           style={{
-            background: `url(${el.imgBg})`,
-            backgroundSize: 'cover'
-          }}
-           >
+            className="slide"
+            key={`${el.nome}-${index}`}
+            style={{
+              background: `url(${el.imgBg})`,
+              backgroundSize: 'cover'
+            }}
+          >
             {el.nome}
             <div className="tec-container">
               {el.tecnologias.map((elem: string) =>

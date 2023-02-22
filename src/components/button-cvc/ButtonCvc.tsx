@@ -1,14 +1,15 @@
 import { TbFileText } from 'react-icons/tb';
+import { TButton } from '../../utils/types/types';
 import { Container } from './ButtonCvc.Styled';
 
-const ButtonCvc = ({text, link}: {text: string, link: string}) => {
+const ButtonCvc = ({ texto, link }: TButton) => {
   return (
     <Container>
-      <a href={link}  target='_blank' download>        
+      <a href={link} target='_blank' download>
         <button >
           <TbFileText size={25} />
-          {text}  
-        </button>      
+          {texto}
+        </button>
       </a>
     </Container>
   )

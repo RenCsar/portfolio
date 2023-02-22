@@ -20,7 +20,7 @@ const Contato = () => {
         </div>
         <Button texto='Entre em contato' link={linkContato} />
         <p>Ou</p>
-        <ButtonCvc text={'Baixar meu currículo completo'} link={LinkCVC} />
+        <ButtonCvc texto={'Baixar meu currículo completo'} link={LinkCVC} />
       </div>
     </Container>
   )

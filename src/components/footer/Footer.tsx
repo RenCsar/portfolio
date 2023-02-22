@@ -1,8 +1,6 @@
 import { Container } from "./Footer.Styled"
 import { AiOutlineLinkedin } from 'react-icons/ai';
 import { VscGithub } from 'react-icons/vsc';
-import { ImProfile } from 'react-icons/im';
-
 
 const Footer = () => {
     return (
