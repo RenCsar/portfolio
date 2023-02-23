@@ -52,4 +52,36 @@ export const Container = styled.section`
       ${gradiente};
     }
   }
+
+  @media (max-width: 650px) {
+    padding: var(--padding-400);
+
+    & .content {
+      & h3 {
+        font-size: 28px;
+      }
+
+      & .text-container {
+        & :nth-child(1) {
+          width: 95%;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 400px) {
+    padding: var(--padding-400);
+
+    & .content {
+      & h3 {
+        font-size: 22px;
+      }
+
+      & .text-container {
+        & :nth-child(1) {
+          width: 95%;
+        }
+      }
+    }
+  }
 `;
