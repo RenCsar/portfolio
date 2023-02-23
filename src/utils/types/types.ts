@@ -9,4 +9,6 @@ export type TProjetos = {
   descricao: string;
   img: string;
   imgBg: string;
+  site: string;
+  repositorio: string
 };

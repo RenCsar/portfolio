@@ -9,7 +9,9 @@
     ],
     "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
     "img": "https://i.imgur.com/ALeTcE5.png",
-    "imgBg": "https://i.imgur.com/DlDfIKr.png"
+    "imgBg": "https://i.imgur.com/DlDfIKr.png",
+    "site": "https://tech-shopping.vercel.app/",
+    "repositorio": "https://github.com/RenCsar/TECH-shopping"
   },
   {
     "nome": "Clone Netflix",
@@ -21,7 +23,9 @@
     ],
     "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
     "img": "https://i.imgur.com/8yOe8aW.png",
-    "imgBg": "https://i.imgur.com/sag2mR1.png"
+    "imgBg": "https://i.imgur.com/sag2mR1.png",
+    "site": "https://recriando-a-interface-do-netflix.vercel.app/",
+    "repositorio": "https://github.com/RenCsar/Recriando-a-interface-do-Netflix"
   },
   {
     "nome": "Poke Store",
@@ -32,7 +36,9 @@
     ],
     "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
     "img": "https://i.imgur.com/O4dbfrc.png",
-    "imgBg": "https://i.imgur.com/a2DzLDT.png"
+    "imgBg": "https://i.imgur.com/a2DzLDT.png",
+    "site": "https://pokestore-redux.vercel.app/",
+    "repositorio": "https://github.com/RenCsar/pokestore-redux"
   },
   {
     "nome": "Enzo Filmes",
@@ -44,7 +50,9 @@
     ],
     "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
     "img": "https://i.imgur.com/tIacuNi.png",
-    "imgBg": "https://i.imgur.com/x5lpxeR.png"
+    "imgBg": "https://i.imgur.com/x5lpxeR.png",
+    "site": "https://site-filmes-e-series.vercel.app/",
+    "repositorio": "https://github.com/RenCsar/Site-filmes-e-series"
   },
   {
     "nome": "Remind",
@@ -55,6 +63,8 @@
     ],
     "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
     "img": "https://i.imgur.com/T9w2YJz.png",
-    "imgBg": "https://imgur.com/X9OvbuA.png"
+    "imgBg": "https://imgur.com/X9OvbuA.png",
+    "site": "",
+    "repositorio": "https://github.com/RenCsar/remind-clone-1"
   }
 ]

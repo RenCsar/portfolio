@@ -8,6 +8,7 @@ import "swiper/css/navigation";
 import { Container } from "./Carousel.Styled";
 import projetos from '../../utils/projetos.json'
 import { TProjetos } from "../../utils/types/types";
+import Button from "../button/Button";
 
 export default function Carousel() {
   return (
@@ -36,13 +37,24 @@ export default function Carousel() {
               backgroundSize: 'cover'
             }}
           >
-            {el.nome}
-            <div className="tec-container">
-              {el.tecnologias.map((elem: string) =>
-                <div className="item-container">
-                  <p>{elem}</p>
-                </div>
-              )}
+            <div className="container-geral">
+              <div className="title-container">
+                <p>{el.nome}</p>
+              </div>
+              <div className="img-container">
+                <img src={el.img} alt="Imagem do projeto" />
+              </div>
+              <div className="tec-container">
+                {el.tecnologias.map((elem: string) =>
+                  <div className="item-container">
+                    <p>{elem}</p>
+                  </div>
+                )}
+              </div>
+              <div className="btn-container">
+                <Button texto={'Repositório'} link={el.repositorio} />
+                <Button texto={'Site'} link={el.site} />
+              </div>
             </div>
           </SwiperSlide>
         )}
