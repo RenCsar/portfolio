@@ -21,4 +21,13 @@ export const Section = styled.section`
     width: 100%;
     margin-bottom: 20px;
   }
+
+  @media (max-width: 1000px) {
+    padding: var(--padding-600);
+  }
+
+  @media (max-width: 600px) {
+    padding: var(--padding-400);
+    height: 720px;
+  }
 `;

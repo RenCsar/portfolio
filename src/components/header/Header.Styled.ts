@@ -38,9 +38,9 @@ export const Container = styled.header`
     }
   }
 
-  @media (max-width: 600px){
+  @media (max-width: 600px) {
     justify-content: center;
-    
+
     & .logo-container {
       display: none;
     }

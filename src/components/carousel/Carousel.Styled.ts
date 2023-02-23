@@ -41,24 +41,23 @@ export const Container = styled.div`
       width: 90%;
       border-radius: 10px;
       gap: 10px;
-      
+
       & .title-container {
-        
         > p {
           color: var(--branco);
           font-size: 32px;
           font-weight: 700;
         }
       }
-      
+
       & .img-container {
         width: 500px;
         height: 300px;
         border-radius: 10px;
-        
+
         > img {
           width: 500px;
-          height: 300px;          
+          height: 300px;
           border-radius: 10px;
         }
       }
@@ -75,12 +74,12 @@ export const Container = styled.div`
           font-size: 14px;
         }
       }
-      
+
       & .btn-container {
         display: flex;
         gap: 20px;
         margin-top: 10px;
-        
+
         > a {
           color: var(--branco);
           background-color: var(--verde);
@@ -89,6 +88,29 @@ export const Container = styled.div`
           border-radius: 10px;
           font-size: 15px;
           cursor: pointer;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 700px) {
+    & .slide {
+      & .container-geral {
+        .img-container {
+          width: 95%;
+          ${flexCenter};
+
+          > img {
+            width: 95%;
+            height: 90%;
+          }
+        }
+
+        & .tec-container {
+          & .item-container {
+            padding: 1px 5px;
+            font-size: 12px;
+          }
         }
       }
     }

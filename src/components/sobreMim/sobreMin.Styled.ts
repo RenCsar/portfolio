@@ -70,7 +70,7 @@ export const Container = styled.section`
     }
   }
 
-  @media (max-width: 1150px) {    
+  @media (max-width: 1150px) {
     & .text-container {
       width: 400px;
       > :nth-child(1) {
@@ -82,17 +82,17 @@ export const Container = styled.section`
       > .descricao {
         font-size: 14px;
       }
-    }    
+    }
   }
 
   @media (max-width: 1000px) {
-    flex-direction: column-reverse;    
+    flex-direction: column-reverse;
 
     & .text-container {
       width: 100%;
       margin-bottom: 30px;
     }
-    
+
     & .img-container {
       & .foto-container {
         height: 320px;
@@ -106,13 +106,13 @@ export const Container = styled.section`
     }
   }
 
-  @media (max-width: 600px){
+  @media (max-width: 600px) {
     height: 600px;
     padding: var(--padding-600);
-    
-    & .text-container {      
+
+    & .text-container {
       margin-bottom: 80px;
-      
+
       > :nth-child(1) {
         font-size: 15px;
       }
@@ -125,7 +125,7 @@ export const Container = styled.section`
       & .button-container {
         text-align: center;
       }
-    } 
+    }
 
     & .img-container {
       margin-top: 30px;
@@ -141,17 +141,16 @@ export const Container = styled.section`
     }
   }
 
-  @media (max-width: 400px){
-    padding: var(--padding-400);    
+  @media (max-width: 400px) {
+    padding: var(--padding-400);
     height: 85vh;
     align-items: center;
 
-    & .text-container {      
+    & .text-container {
       height: 100%;
       align-items: center;
       justify-content: center;
-
-    }  
+    }
 
     & .img-container {
       margin-top: 10px;
