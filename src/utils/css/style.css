@@ -11,6 +11,7 @@
   --azul: #5280e2;
   --branco: #fff;
   --padding-central: 0px 100px;
+  --cinza: #969595;
 }
 
 Body {
@@ -22,7 +23,7 @@ Body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #969595;
+  background: var(--cinza);
   border-radius: 8px;
 }
 

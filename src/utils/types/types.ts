@@ -10,5 +10,9 @@ export type TProjetos = {
   img: string;
   imgBg: string;
   site: string;
-  repositorio: string
+  repositorio: string;
+};
+
+export type TLink = {
+  link: string | undefined;
 };
