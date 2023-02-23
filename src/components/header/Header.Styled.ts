@@ -32,6 +32,7 @@ export const Container = styled.header`
         & .nav-item {
           cursor: pointer;
           color: white;
+          user-select: none;
         }
       }
     }
