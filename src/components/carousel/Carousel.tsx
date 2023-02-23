@@ -46,7 +46,7 @@ export default function Carousel() {
               </div>
               <div className="tec-container">
                 {el.tecnologias.map((elem: string) =>
-                  <div className="item-container">
+                  <div className="item-container" key={`${elem}-${index}`}>
                     <p>{elem}</p>
                   </div>
                 )}
