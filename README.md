@@ -4,7 +4,7 @@
  Meu Portfólio</a>
 </h1>
 
-<p align="center">Acesse o meu <a href="https://portfolio-azure-delta-83.vercel.app/">Portfólio</a>.</p>
+<p align="center">Acesse o meu <a href="https://portfolio-azure-delta-83.vercel.app/" target="_blank">Portfólio</a>.</p>
 
 <p align="center">
  <a href="#Descrição">Descrição</a> •
