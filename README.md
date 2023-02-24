@@ -1,46 +1,49 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+ <img align="center" width="150" height="50" src="public/logo.png"><br><br>
+ Meu Portfólio</a>
+</h1>
 
-## Available Scripts
+<p align="center">Acesse o meu <a href="https://portfolio-azure-delta-83.vercel.app/">Portfólio</a>.</p>
 
-In the project directory, you can run:
+<p align="center">
+ <a href="#Descrição">Descrição</a> •
+ <a href="#Tecnologias">Tecnologias utilizadas</a> •
+ <a href="#autor">Autor</a>
+</p>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+<h1 align="center">  
+<p align="center">
+  <img width="800" height="400" src="public/portfolio.gif"><br><br>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</h1>
 
-### `npm run build`
+<a id="Descrição"></a>
+### Descrição
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Meu portfólio.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<a id="Tecnologias"></a>
+### Tecnologias utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### `npm run eject`
+- React JS
+- Typescript
+- Styled Components
+- React Scroll
+- React Icons
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Autor
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Made with 💜 by Renan Cesar 👋
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![LinkedIn Badge](https://img.shields.io/badge/-Renan_Cesar-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/renan-cesar/)](https://www.linkedin.com/in/renan-cesar/)
