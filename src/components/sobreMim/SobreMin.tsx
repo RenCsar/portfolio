@@ -11,8 +11,9 @@ export const SobreMin = () => {
         <Element name='sobremim'>
             <Container id='sobremin'>
                 <div className='text-container'>
-                    <p>Hello,</p>
+                    <p>Olá,</p>
                     <h1>Eu sou o Renan Cesar</h1>
+                    <p>Desenvolvedor Front-end</p>
                     <div className='descricao'>
                         <p>Sou formado em análise e Desenvolvimento de sistemas e estou me dedicando as tecnologias frontend. Adoro aprender novas tecnologias e trabalhar em equipe.</p>
                     </div>

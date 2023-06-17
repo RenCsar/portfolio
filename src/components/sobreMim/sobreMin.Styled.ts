@@ -4,11 +4,11 @@ export const Container = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--padding-central);
+  padding: 10px 240px;
   height: 604px;
 
   & .text-container {
-    width: 550px;
+    width: 500px;
     display: flex;
     flex-direction: column;
 
@@ -16,29 +16,39 @@ export const Container = styled.section`
       color: var(--branco);
     }
 
-    > :nth-child(1) {
+    > :nth-child(1),
+    > :nth-child(3) {
       font-size: 18px;
     }
     > :nth-child(2) {
-      font-size: 48px;
+      font-size: 42px;
       color: var(--verde);
     }
+
+    > :nth-child(3) {
+      font-weight: bold;
+    }
+
     > .descricao {
-      font-size: 15px;
+      margin-top: 10px;
+      font-size: 18px;
+      width:450px;
     }
 
     & .button-container {
-      margin-top: 25px;
+      margin-top: 40px;
     }
   }
 
   & .img-container {
     & .foto-container {
-      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       & img {
-        height: 400px;
-        width: 420px;
+        height: 310px;
+        width: 320px;
       }
     }
   }

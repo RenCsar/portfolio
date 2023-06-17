@@ -7,7 +7,7 @@ const Container = styled.div<TLink>`
       props.link == "" ? `var(--cinza)` : `var(--azul)`};
     color: var(--branco);
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     height: 35px;
     padding: 0px 20px;
     cursor: ${(props) => (props.link == "" ? `not-allowed` : `pointer`)};
