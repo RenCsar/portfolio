@@ -20,6 +20,8 @@ export const Section = styled.section`
     height: 530px;
     width: 100%;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
   }
 
   @media (max-width: 1000px) {

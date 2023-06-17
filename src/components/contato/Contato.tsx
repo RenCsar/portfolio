@@ -1,3 +1,4 @@
+import { Element } from 'react-scroll';
 import ButtonCvc from '../button-cvc/ButtonCvc';
 import Button from '../button/Button'
 import { Container } from './Contato.Styled'
@@ -7,22 +8,24 @@ const Contato = () => {
   const LinkCVC: string = 'https://drive.google.com/u/0/uc?id=15JVW-J7qhSexhWz7m4MpUJwnvmbCUe4q&export=download'
 
   return (
-    <Container id='contato'>
-      <h2>Contato</h2>
-      <div className='content'>
-        <div>
-          <h3>Vamos trabalhar juntos?</h3>
+    <Element name='contato'>
+      <Container>
+        <h2>Contato</h2>
+        <div className='content'>
+          <div>
+            <h3>Vamos trabalhar juntos?</h3>
+          </div>
+          <div className='text-container'>
+            <p>
+              Se você gostou do meu trabalho e quer que eu tire sua ideia do papel ou faça parte do seu time, entre em contato comigo!
+            </p>
+          </div>
+          <Button texto='Entre em contato' link={linkContato} />
+          <p>Ou</p>
+          <ButtonCvc texto={'Baixar meu currículo completo'} link={LinkCVC} />
         </div>
-        <div className='text-container'>
-          <p>
-            Se você gostou do meu trabalho e quer que eu tire sua ideia do papel ou faça parte do seu time, entre em contato comigo!
-          </p>
-        </div>
-        <Button texto='Entre em contato' link={linkContato} />
-        <p>Ou</p>
-        <ButtonCvc texto={'Baixar meu currículo completo'} link={LinkCVC} />
-      </div>
-    </Container>
+      </Container>
+    </Element>
   )
 }
 

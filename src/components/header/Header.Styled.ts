@@ -10,29 +10,34 @@ export const Container = styled.header`
   ${flexCenter};
   justify-content: space-between;
   width: 100%;
-  padding: 10px 25px;
-  background-color: var(--preto-bg);
+  padding: var(--padding-central);
+  height: 50px;
 
   & .logo-container {
+    display: flex;
+    align-items: center;
+
     & img {
-      height: 46px;
-      width: 158px;
+      height: 35px;
+      width: 120px;
     }
   }
 
   & .nav-container {
     & ul {
-      justify-content: space-between;
-      display: flex;
-      list-style-type: none;
-      gap: 10px;
-      width: 300px;
-
       & li {
         & .nav-item {
           cursor: pointer;
           color: white;
           user-select: none;
+
+          &.active {
+            color: var(--azul);
+          }
+
+          &:hover {
+            color: var(--azul);
+          }
         }
       }
     }

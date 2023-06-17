@@ -13,10 +13,10 @@ const flex = `
 
 export const Container = styled.section`
   padding: var(--padding-central);
+  padding-top: 100px;
   ${flex}
-  height: 500px;
+  height: 585px;
   gap: 20px;
-  margin-top: 50px;
 
   & h2 {
     margin-bottom: 20px;
