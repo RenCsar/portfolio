@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const rep = `
   width: 1000px;
-  height: 350px;
+  height: 400px;
   border-radius: 10px;
 `;
 
