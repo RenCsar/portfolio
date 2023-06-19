@@ -16,6 +16,10 @@ export const Container = styled.footer`
     ${flexCenter}
     gap: 10px;
 
+    & a {
+      transition: 0.3s;
+    }
+    
     & :hover {
       transform: scale(1.015);
     }
