@@ -15,6 +15,7 @@ export const Container = styled.footer`
   & .icon-container {
     ${flexCenter}
     gap: 10px;
+    margin-top: 10px;
 
     & a {
       transition: 0.3s;
