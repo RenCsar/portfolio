@@ -5,7 +5,7 @@ import { Container } from './Contato.Styled'
 
 const Contato = () => {
   const linkContato: string = 'https://api.whatsapp.com/send?phone=5521990926768&text=sua%20mensagem';
-  const LinkCVC: string = 'https://drive.google.com/u/0/uc?id=15JVW-J7qhSexhWz7m4MpUJwnvmbCUe4q&export=download'
+  const LinkCVC: string = 'https://drive.google.com/u/0/uc?id=1Xb8OQLJk0QghQxY_IFcEEdFrlnHIdfLx&export=download'
 
   return (
     <Element name='contato'>
