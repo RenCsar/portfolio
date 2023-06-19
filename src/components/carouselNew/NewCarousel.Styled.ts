@@ -87,6 +87,7 @@ export const Container = styled.div`
         ${imgSize}
         justify-content: flex-start;
         align-items: flex-start;
+        gap: 10px;
 
         & .title-container {
           > p {

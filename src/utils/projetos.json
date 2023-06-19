@@ -21,7 +21,7 @@
       "Javascript",
       "JQuery"
     ],
-    "descricao": "O projeto consiste em recriar a interface de uma plataforma de streaming de vídeos. O objetivo do projeto é educacional. Sua finalidade é demonstrar o quê podemos fazer utilizando tecnologias simples como HTML5, CSS3 e JavaScript.",
+    "descricao": "O projeto é a recriação da interface de uma plataforma de streaming de vídeos com um propósito educacional. Demonstra o potencial de tecnologias simples como HTML5, CSS3 e JavaScript.",
     "img": "https://i.imgur.com/8yOe8aW.png",
     "imgBg": "https://i.imgur.com/sag2mR1.png",
     "site": "https://recriando-a-interface-do-netflix.vercel.app/",
@@ -34,7 +34,7 @@
       "Redux",
       "Chakra UI"
     ],
-    "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras.",
+    "descricao": "O projeto é um e-commerce com funcionalidades de adicionar, remover e limpar itens do carrinho, além de emitir um comprovante de compra. Utiliza Redux para gerenciar estados dos produtos no carrinho e lista de favoritos.",
     "img": "https://i.imgur.com/O4dbfrc.png",
     "imgBg": "https://i.imgur.com/a2DzLDT.png",
     "site": "https://pokestore-redux.vercel.app/",
@@ -44,11 +44,11 @@
     "nome": "Enzo Filmes",
     "tecnologias": [
       "React JS",
-      "Typescript",
-      "Node JS",
-      "Express"
+      "Axios",
+      "Hook Form",
+      "Yup"
     ],
-    "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
+    "descricao": "O projeto é um catálogo de filmes e séries desenvolvido em React. Utiliza o Axios para consumir a API de filmes da The Movie Database, proporcionando uma ampla variedade de opções de entretenimento.",
     "img": "https://i.imgur.com/tIacuNi.png",
     "imgBg": "https://i.imgur.com/x5lpxeR.png",
     "site": "https://site-filmes-e-series.vercel.app/",
@@ -61,7 +61,7 @@
       "CSS",
       "Javascript"
     ],
-    "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
+    "descricao": "O projeto é uma lista de tarefas desenvolvida com HTML, CSS e JavaScript, oferecendo uma solução simples e eficiente para gerenciar suas atividades diárias.",
     "img": "https://i.imgur.com/T9w2YJz.png",
     "imgBg": "https://imgur.com/X9OvbuA.png",
     "site": "",
