@@ -7,7 +7,7 @@
       "Node JS",
       "Express"
     ],
-    "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
+    "descricao": "O projeto consiste em um e-commerce responsivo focando na acessibilidade e SEO. Nele é possível adicionar itens ao carrinho, escolher a quantidade de cada item, retirar itens e limpar o carrinho.",
     "img": "https://i.imgur.com/ALeTcE5.png",
     "imgBg": "https://i.imgur.com/DlDfIKr.png",
     "site": "https://tech-shopping.vercel.app/",
@@ -21,7 +21,7 @@
       "Javascript",
       "JQuery"
     ],
-    "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
+    "descricao": "O projeto consiste em recriar a interface de uma plataforma de streaming de vídeos. O objetivo do projeto é educacional. Sua finalidade é demonstrar o quê podemos fazer utilizando tecnologias simples como HTML5, CSS3 e JavaScript.",
     "img": "https://i.imgur.com/8yOe8aW.png",
     "imgBg": "https://i.imgur.com/sag2mR1.png",
     "site": "https://recriando-a-interface-do-netflix.vercel.app/",
@@ -34,7 +34,7 @@
       "Redux",
       "Chakra UI"
     ],
-    "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras",
+    "descricao": "Projeto desenvolvido com algumas funcionalidades de um e-commerce, como: adicionar, retirar e limpar todos os produtos do carrinho de compras.",
     "img": "https://i.imgur.com/O4dbfrc.png",
     "imgBg": "https://i.imgur.com/a2DzLDT.png",
     "site": "https://pokestore-redux.vercel.app/",
