@@ -30,12 +30,14 @@ export const Container = styled.header`
           cursor: pointer;
           color: white;
           user-select: none;
-
+          transition: 0.75s all;
+          
           &.active {
             color: var(--azul);
           }
-
+          
           &:hover {
+            transition: 0.75s all;
             color: var(--azul);
           }
         }
