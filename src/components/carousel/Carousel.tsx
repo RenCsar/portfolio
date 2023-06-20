@@ -17,7 +17,7 @@ export default function Carousel() {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 4000,
+          delay: 6000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -32,28 +32,33 @@ export default function Carousel() {
           <SwiperSlide
             className="slide"
             key={`${el.nome}-${index}`}
-            style={{
-              background: `url(${el.imgBg})`,
-              backgroundSize: 'cover'
-            }}
           >
             <div className="container-geral">
-              <div className="title-container">
-                <p>{el.nome}</p>
+              <div className="col-1">
+                <div className="img-container">
+                  <img src={el.img} alt="Imagem do projeto" />
+                </div>
+                <div className="tec-container">
+                  {el.tecnologias.map((elem: string) =>
+                    <div className="item-container" key={`${elem}-${index}`}>
+                      <p>{elem}</p>
+                    </div>
+                  )}
+                </div>
               </div>
-              <div className="img-container">
-                <img src={el.img} alt="Imagem do projeto" />
-              </div>
-              <div className="tec-container">
-                {el.tecnologias.map((elem: string) =>
-                  <div className="item-container" key={`${elem}-${index}`}>
-                    <p>{elem}</p>
-                  </div>
-                )}
-              </div>
-              <div className="btn-container">
-                <Button texto={'Repositório'} link={el.repositorio} />
-                <Button texto={'Site'} link={el.site} />
+              <div className="col-2">
+                <div className="title-container">
+                  <p>{el.nome}</p>
+                </div>
+                <div className="descricao">
+                  <p>
+                    {el.descricao}
+                  </p>
+                </div>
+                <div className="btn-container">
+                  <Button texto={'Repositório'} link={el.repositorio} />
+                  <Button texto={'Site'} link={el.site} />
+                </div>
               </div>
             </div>
           </SwiperSlide>

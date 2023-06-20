@@ -1,7 +1,6 @@
 import { Element } from 'react-scroll'
-import Carousel from '../carousel/Carousel'
 import { Section } from './Portfolio.Styled'
-import NewCarousel from '../carouselNew/NewCarousel'
+import Carousel from '../carousel/Carousel'
 
 export const Portfolio = () => {
   return (
@@ -9,8 +8,7 @@ export const Portfolio = () => {
       <Section>
         <h1>Portfólio</h1>
         <div className='carousel-container'>
-          {/* <Carousel /> */}
-          <NewCarousel />
+          <Carousel />
         </div>
       </Section>
     </Element>
