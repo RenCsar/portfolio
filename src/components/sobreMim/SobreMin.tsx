@@ -12,7 +12,7 @@ export const SobreMin = () => {
         <Element name='sobremim'>
             <Container id='sobremin'>
                 <div className='text-container'>
-                    <Fade direction="down" delay={100} duration={400} triggerOnce cascade>
+                    <Fade direction="down" delay={50} duration={300} triggerOnce cascade>
                         <p>Olá,</p>
                         <h1>Eu sou o Renan Cesar</h1>
                         <p>Desenvolvedor Front-end</p>

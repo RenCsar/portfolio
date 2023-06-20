@@ -9,7 +9,7 @@ export const Section = styled.section`
   background: url("https://i.imgur.com/XHHcits.png");
   height: 800px;
 
-  > h1 {
+  & h1 {
     color: var(--verde);
     font-size: 32px;
     border-bottom: 2px solid var(--verde);
