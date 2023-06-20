@@ -21,7 +21,7 @@ export const Container = styled.section`
       font-size: 18px;
     }
     > :nth-child(2) {
-      font-size: 42px;
+      font-size: 28px;
       color: var(--verde);
     }
 
