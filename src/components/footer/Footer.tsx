@@ -13,7 +13,7 @@ const Footer = () => {
                     <TfiGithub size={41} fill={'white'} />
                 </a>
             </div>
-            <p>Made by Renan Cesar - 2022</p>
+            <p>Made by Renan Cesar - 2023</p>
         </Container>
     )
 }
