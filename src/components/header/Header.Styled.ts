@@ -6,6 +6,12 @@ const flexCenter = `
     align-items: center;
 `;
 
+const gradiente = `
+    background: -webkit-linear-gradient(#15cdcb, #5280e2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+`;
+
 export const Container = styled.header`
   ${flexCenter};
   justify-content: space-between;
@@ -32,13 +38,14 @@ export const Container = styled.header`
           user-select: none;
           transition: 0.75s all;
           
-          &.active {
-            color: var(--azul);
+          &.active {           
+            ${gradiente};
+            text-shadow: 0 0 0.125em #15cdcb, 0 0 1em #5280e2;
           }
           
           &:hover {
             transition: 0.75s all;
-            color: var(--azul);
+            ${gradiente};
           }
         }
       }
