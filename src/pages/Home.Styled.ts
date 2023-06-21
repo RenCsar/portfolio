@@ -10,4 +10,11 @@ export const Container = styled.div`
     top: 0;
     z-index: 9;
   }
+
+  @media (max-width: 500px) {
+    & .header-container {
+    position: fixed;
+    width: 100vw;
+  }
+  }
 `;

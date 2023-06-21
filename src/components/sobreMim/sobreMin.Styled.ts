@@ -163,7 +163,7 @@ export const Container = styled.section`
 
   @media (max-width: 500px) {
     padding: var(--padding-400);
-    height: 90vh;
+    height: 100vh;
     align-items: center;
 
     & .text-container {
@@ -180,6 +180,7 @@ export const Container = styled.section`
     }
 
     & .img-container {
+      margin-top: 60px;
       & .foto-container {
         height: 200px;
 
@@ -194,7 +195,7 @@ export const Container = styled.section`
   @media (max-width: 330px) {
     height: 100%;
     & .img-container {      
-      margin-top: 20px;
+      margin-top: 70px;
     }
   }
 `;
