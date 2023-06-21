@@ -157,10 +157,12 @@ export const Container = styled.div`
   @media (max-width: 500px) {
     & .mySwiper {
       width: 390px;
+      height: 550px;
     }
 
     & .container-geral {
       gap: 5px !important;
+      justify-content: flex-start !important;
 
       & .col-1 {
         gap: 10px;
