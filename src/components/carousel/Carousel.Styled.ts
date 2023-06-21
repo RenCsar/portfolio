@@ -124,24 +124,120 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 1000px) {
+    & .mySwiper {
+      width: 600px;
+      height: 600px;
+    }
+
     & .slide {
       & .container-geral {
-        .img-container {
-          width: 95%;
-          ${flexCenter};
+        flex-direction: column;
+        justify-content: center;
+
+        & .col-2 {
+          width: 400px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 700px) {
+    & .mySwiper {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    & .mySwiper {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    & .mySwiper {
+      width: 390px;
+    }
+
+    & .container-geral {
+      & .col-1 {
+        gap: 10px;
+        & .img-container {
+          height: 200px !important;
+          width: 320px !important;
 
           > img {
-            width: 95%;
-            height: 90%;
+            height: 200px !important;
+            width: 320px !important;
+          }
+        }
+
+        & .tec-container {
+          gap: 10px;
+
+          & .item-container {
+            padding: 1px 6px;
+            font-size: 14px;
+          }
+        }
+      }
+
+      & .col-2 {
+        gap: 10px;
+        width: 320px !important;
+
+        & .title-container {
+          > p {
+            font-size: 20px !important;
+          }
+        }
+
+        & .descricao {
+          font-size: 13px !important;
+          width: 320px !important;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 400px) {
+    & .mySwiper {
+      width: 340px;
+    }
+
+    & .container-geral {
+      & .col-1 {
+        gap: 10px;
+        & .img-container {
+          height: 150px !important;
+          width: 270px !important;
+
+          > img {
+            height: 150px !important;
+            width: 270px !important;
           }
         }
 
         & .tec-container {
           & .item-container {
-            padding: 1px 5px;
-            font-size: 12px;
+            font-size: 11px !important;
           }
+        }
+      }
+
+      & .col-2 {
+        width: 270px !important;
+        gap: 12px !important;
+
+        & .title-container {
+          > p {
+            font-size: 18px !important;
+          }
+        }
+
+        & .descricao {
+          font-size: 13px !important;
+          width: 270px !important;
         }
       }
     }

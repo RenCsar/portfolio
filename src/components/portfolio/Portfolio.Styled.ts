@@ -30,6 +30,6 @@ export const Section = styled.section`
 
   @media (max-width: 600px) {
     padding: var(--padding-400);
-    height: 720px;
+    height: 100vh;
   }
 `;
