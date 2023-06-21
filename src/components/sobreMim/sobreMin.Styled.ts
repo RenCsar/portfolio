@@ -194,7 +194,7 @@ export const Container = styled.section`
 
   @media (max-width: 330px) {
     height: 100%;
-    & .img-container {      
+    & .img-container {
       margin-top: 70px;
     }
   }

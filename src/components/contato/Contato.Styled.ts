@@ -54,7 +54,7 @@ export const Container = styled.section`
   }
 
   @media (max-width: 650px) {
-    padding: var(--padding-400);   
+    padding: var(--padding-400);
 
     & .content {
       & h3 {
@@ -89,5 +89,9 @@ export const Container = styled.section`
         }
       }
     }
+  }
+
+  @media (max-width: 330px) {
+    height: 100%;
   }
 `;

@@ -32,4 +32,9 @@ export const Section = styled.section`
     padding: var(--padding-400);
     height: 100vh;
   }
+
+  @media (max-width: 330px) {
+    height: 100%;
+    justify-content: center;
+  }
 `;
