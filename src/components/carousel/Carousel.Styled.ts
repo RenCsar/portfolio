@@ -160,6 +160,8 @@ export const Container = styled.div`
     }
 
     & .container-geral {
+      gap: 5px !important;
+
       & .col-1 {
         gap: 10px;
         & .img-container {
@@ -206,8 +208,11 @@ export const Container = styled.div`
     }
 
     & .container-geral {
+      gap: 5px !important;
+
       & .col-1 {
-        gap: 10px;
+        height: 230px !important;
+
         & .img-container {
           height: 150px !important;
           width: 270px !important;
