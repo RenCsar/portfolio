@@ -8,7 +8,7 @@
       "Express"
     ],
     "descricao": "O projeto consiste em um e-commerce responsivo focando na acessibilidade e SEO. Nele é possível adicionar itens ao carrinho, escolher a quantidade de cada item, retirar itens e limpar o carrinho.",
-    "img": "https://i.imgur.com/ALeTcE5.png",
+    "img": "https://i.imgur.com/omqKrqo.gif",
     "imgBg": "https://i.imgur.com/DlDfIKr.png",
     "site": "https://tech-shopping.vercel.app/",
     "repositorio": "https://github.com/RenCsar/TECH-shopping"
@@ -22,7 +22,7 @@
       "JQuery"
     ],
     "descricao": "O projeto é a recriação da interface de uma plataforma de streaming de vídeos com um propósito educacional. Demonstra o potencial de tecnologias simples como HTML5, CSS3 e JavaScript.",
-    "img": "https://i.imgur.com/8yOe8aW.png",
+    "img": "https://i.imgur.com/YWbXOLF.gif",
     "imgBg": "https://i.imgur.com/sag2mR1.png",
     "site": "https://recriando-a-interface-do-netflix.vercel.app/",
     "repositorio": "https://github.com/RenCsar/Recriando-a-interface-do-Netflix"
@@ -35,13 +35,13 @@
       "Chakra UI"
     ],
     "descricao": "O projeto é um e-commerce com funcionalidades de adicionar, remover e limpar itens do carrinho, além de emitir um comprovante de compra. Utiliza Redux para gerenciar estados dos produtos no carrinho e lista de favoritos.",
-    "img": "https://i.imgur.com/O4dbfrc.png",
+    "img": "https://i.imgur.com/P1N2OF3.gif",
     "imgBg": "https://i.imgur.com/a2DzLDT.png",
     "site": "https://pokestore-redux.vercel.app/",
     "repositorio": "https://github.com/RenCsar/pokestore-redux"
   },
   {
-    "nome": "Enzo Filmes",
+    "nome": "Top Filmes & Series",
     "tecnologias": [
       "React JS",
       "Axios",
@@ -49,7 +49,7 @@
       "Yup"
     ],
     "descricao": "O projeto é um catálogo de filmes e séries desenvolvido em React. Utiliza o Axios para consumir a API de filmes da The Movie Database, proporcionando uma ampla variedade de opções de entretenimento.",
-    "img": "https://i.imgur.com/tIacuNi.png",
+    "img": "https://i.imgur.com/YPVzWNC.gif",
     "imgBg": "https://i.imgur.com/x5lpxeR.png",
     "site": "https://site-filmes-e-series.vercel.app/",
     "repositorio": "https://github.com/RenCsar/Site-filmes-e-series"
@@ -62,7 +62,7 @@
       "Javascript"
     ],
     "descricao": "O projeto é uma lista de tarefas desenvolvida com HTML, CSS e JavaScript, oferecendo uma solução simples e eficiente para gerenciar suas atividades diárias.",
-    "img": "https://i.imgur.com/T9w2YJz.png",
+    "img": "https://i.imgur.com/smM01MD.gif",
     "imgBg": "https://imgur.com/X9OvbuA.png",
     "site": "",
     "repositorio": "https://github.com/RenCsar/remind-clone-1"
