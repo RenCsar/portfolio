@@ -1,5 +1,19 @@
 [
   {
+    "nome": "Breaknews",
+    "tecnologias": [
+      "React JS",
+      "Typescript",
+      "Node JS",
+      "Express"
+    ],
+    "descricao": "Site de notícias onde os usuários podem criar, editar, apagar suas noticías e acessar, curtir e comentar as notícias de outros usuários.",
+    "img": "https://i.imgur.com/XxSQRmf.gif",
+    "imgBg": "https://i.imgur.com/DlDfIKr.png",
+    "site": "https://breaknews.vercel.app/",
+    "repositorio": "https://github.com/RenCsar/breaknews"
+  },
+  {
     "nome": "Tech Shopping",
     "tecnologias": [
       "React JS",
@@ -66,5 +80,19 @@
     "imgBg": "https://imgur.com/X9OvbuA.png",
     "site": "",
     "repositorio": "https://github.com/RenCsar/remind-clone-1"
+  },
+  {
+    "nome": "PokeNext",
+    "tecnologias": [
+      "Next JS",
+      "Typescript",
+      "Tailwind",
+      "Fetch APi"
+    ],
+    "descricao": "O projeto foi desenvolvido em Next.js com Typescript e Tailwind e que consome a API que trás uma lista de Pokémons.",
+    "img": "https://i.imgur.com/S2IuHaT.gif",
+    "imgBg": "https://i.imgur.com/MFLTkSm.png",
+    "site": "https://rc-pokenext.vercel.app/",
+    "repositorio": "https://github.com/RenCsar/pokenext"
   }
 ]
