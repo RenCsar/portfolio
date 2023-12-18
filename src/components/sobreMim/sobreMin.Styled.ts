@@ -47,8 +47,8 @@ export const Container = styled.section`
       justify-content: center;
 
       & img {
-        height: 310px;
-        width: 320px;
+        height: 360px;
+        width: 370px;
       }
     }
   }

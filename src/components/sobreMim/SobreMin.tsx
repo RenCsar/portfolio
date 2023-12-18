@@ -1,5 +1,5 @@
 import { Container } from './sobreMin.Styled'
-import Perfil from '../../assets/bloob-renan.webp'
+import Perfil from '../../assets/bloob-renan-cesar.webp'
 import Button from '../button/Button'
 import { Element } from 'react-scroll';
 import { Fade } from "react-awesome-reveal"
@@ -17,7 +17,7 @@ export const SobreMin = () => {
                         <h1>Eu sou o Renan Cesar</h1>
                         <p>Desenvolvedor Front-end</p>
                         <div className='descricao'>
-                            <p>Sou formado em análise e Desenvolvimento de sistemas e estou me dedicando as tecnologias frontend. Adoro aprender novas tecnologias e trabalhar em equipe.</p>
+                            <p>Sou formado em análise e Desenvolvimento de sistemas e estou me dedicando as tecnologias de desenvolvimento Web como ReactJS, Typescript e Nodejs. Adoro aprender novas tecnologias e trabalhar em equipe.</p>
                         </div>
                         <div className='button-container'>
                             <Button texto="Entre em contato" link={linkContato} />
