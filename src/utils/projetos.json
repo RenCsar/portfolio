@@ -1,5 +1,18 @@
 [
   {
+    "nome": "SelfCare",
+    "tecnologias": [
+      "HTML5",
+      "CSS3",
+      "Javascript"
+    ],
+    "descricao": "O projeto consiste em um site para venda de itens de cuidado pessoal com layout responsivo focando na acessibilidade e SEO. Nele é possível adicionar e remover itens ao carrinho, além de ter uma página de perfil com informações do usuário.",
+    "img": "https://i.imgur.com/VREoSxU.gif",
+    "imgBg": "https://i.imgur.com/J3eKh45.png",
+    "site": "https://vnw-desafio-final-m1.vercel.app/",
+    "repositorio": "https://github.com/RenCsar/VNW-Desafio-final-M1"
+  },
+  {
     "nome": "Breaknews",
     "tecnologias": [
       "React JS",
