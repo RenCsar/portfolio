@@ -1,20 +1,10 @@
 import styled from "styled-components";
-
-const gradiente = `
-    background: -webkit-linear-gradient(#15cdcb, #5280e2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-`;
-const flex = `
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-`;
+import { flexColumn, gradiente } from "../../utils/globalStyledComponents";
 
 export const Container = styled.section`
   padding: var(--padding-central);
   padding-top: 100px;
-  ${flex}
+  ${flexColumn}
   height: 585px;
   gap: 20px;
 
@@ -28,7 +18,7 @@ export const Container = styled.section`
   }
 
   & .content {
-    ${flex}
+    ${flexColumn}
     gap: 20px;
 
     & p {

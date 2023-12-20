@@ -1,11 +1,10 @@
 import styled from "styled-components";
+import { flexCenter } from "../../utils/globalStyledComponents";
 
 export const Section = styled.section`
   padding: var(--padding-central);
-  display: flex;
+  ${flexCenter}
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background: url("https://i.imgur.com/XHHcits.png");
   height: 800px;
 

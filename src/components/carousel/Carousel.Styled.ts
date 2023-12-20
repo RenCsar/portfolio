@@ -1,26 +1,5 @@
 import styled from "styled-components";
-
-const rep = `
-  width: 1000px;
-  height: 400px;
-  border-radius: 10px;
-`;
-
-const flexCenter = `
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const imgSize = `
-  height: 250px;
-`;
-
-const imgConfig = `
-  ${imgSize}
-  width: 400px;
-  border-radius: 10px;
-`;
+import { flexCenter, imgConfig, imgSize, rep } from "../../utils/globalStyledComponents";
 
 export const Container = styled.div`
   ${rep};

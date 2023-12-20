@@ -1,16 +1,5 @@
 import styled from "styled-components";
-
-const flexCenter = `
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`;
-
-const gradiente = `
-    background: -webkit-linear-gradient(#15cdcb, #5280e2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-`;
+import { flexCenter, gradiente } from "../../utils/globalStyledComponents";
 
 export const Container = styled.header`
   ${flexCenter};
@@ -37,12 +26,12 @@ export const Container = styled.header`
           color: white;
           user-select: none;
           transition: 0.75s all;
-          
-          &.active {           
+
+          &.active {
             ${gradiente};
             text-shadow: 0 0 0.125em #15cdcb, 0 0 1em #5280e2;
           }
-          
+
           &:hover {
             transition: 0.75s all;
             ${gradiente};

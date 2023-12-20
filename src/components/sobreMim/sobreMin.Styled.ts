@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { flexCenter } from "../../utils/globalStyledComponents";
 
 export const Container = styled.section`
   display: flex;
@@ -42,9 +43,7 @@ export const Container = styled.section`
 
   & .img-container {
     & .foto-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      ${flexCenter}
 
       & img {
         height: 360px;

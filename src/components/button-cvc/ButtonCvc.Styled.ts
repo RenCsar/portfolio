@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { flexCenter } from "../../utils/globalStyledComponents";
 
 export const Container = styled.div`
   & a {
@@ -6,9 +7,7 @@ export const Container = styled.div`
   };
 
   & button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    ${flexCenter}
     gap: 5px;
     border: 1px;
     border-radius: 16px;

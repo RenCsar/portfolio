@@ -1,10 +1,5 @@
 import styled from "styled-components";
-
-const flexCenter = `
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`;
+import { flexCenter } from "../../utils/globalStyledComponents";
 
 export const Container = styled.footer`
   ${flexCenter}
