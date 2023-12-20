@@ -6,6 +6,7 @@ export const Container = styled.footer`
   flex-direction: column;
   color: var(--branco);
   padding: 15px 0px;
+  height: var(--footer-height);
 
   & .icon-container {
     ${flexCenter}
@@ -15,7 +16,7 @@ export const Container = styled.footer`
     & a {
       transition: 0.3s;
     }
-    
+
     & :hover {
       transform: scale(1.015);
     }

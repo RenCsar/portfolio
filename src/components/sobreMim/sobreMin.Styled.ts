@@ -6,7 +6,7 @@ export const Container = styled.section`
   align-items: center;
   justify-content: space-between;
   padding: 10px 240px;
-  height: 604px;
+  min-height: calc(100vh - 50px);
 
   & .text-container {
     width: 500px;
@@ -123,11 +123,11 @@ export const Container = styled.section`
 
     & .img-container {
       & .foto-container {
-        height: 300px;
+        height: 250px;
 
         & img {
-          height: 300px;
-          width: 310px;
+          height: 250px;
+          width: 260px;
         }
       }
     }

@@ -14,6 +14,9 @@
   --padding-600: 0px 50px;
   --padding-400: 0px 15px;
   --cinza: #969595;
+
+  --header-height: 50px;
+  --footer-height: 100px;
 }
 
 Body {

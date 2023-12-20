@@ -3,10 +3,10 @@ import { flexColumn, gradiente } from "../../utils/globalStyledComponents";
 
 export const Container = styled.section`
   padding: var(--padding-central);
-  padding-top: 100px;
   ${flexColumn}
-  height: 585px;
   gap: 20px;
+  min-height: calc(100vh - var(--footer-height));
+  padding-top: var(--header-height);
 
   & h2 {
     margin-bottom: 20px;
@@ -82,6 +82,7 @@ export const Container = styled.section`
   }
 
   @media (max-width: 330px) {
-    height: 100%;
+    height: calc(100vh + var(--header-height));
+    gap: 15px;
   }
 `;

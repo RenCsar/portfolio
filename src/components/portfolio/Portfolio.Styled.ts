@@ -6,13 +6,14 @@ export const Section = styled.section`
   ${flexCenter}
   flex-direction: column;
   background: url("https://i.imgur.com/XHHcits.png");
-  height: 800px;
-
+  min-height: 100vh;
+  
   & h1 {
     color: var(--verde);
     font-size: 32px;
     border-bottom: 2px solid var(--verde);
     margin-bottom: 20px;
+    margin-top: var(--header-height);
   }
 
   & .carousel-container {
