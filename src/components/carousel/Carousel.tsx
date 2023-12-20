@@ -30,7 +30,7 @@ export default function Carousel() {
         modules={[Autoplay, Pagination, Navigation]}
         loop={true}
         className="mySwiper"
-        direction={isMobile? "vertical" : "horizontal"}
+        // direction={isMobile? "vertical" : "horizontal"}
       >
         {projetos.map((el: TProjetos, index: number) =>
           <SwiperSlide
