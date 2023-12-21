@@ -9,10 +9,8 @@ import { Container } from "./Carousel.Styled";
 import projetos from '../../utils/projetos.json'
 import { TProjetos } from "../../utils/types/types";
 import Button from "../button/Button";
-import { useMediaQuery } from 'react-responsive';
 
 export default function Carousel() {
-  const isMobile = useMediaQuery({ maxWidth: 500 });
 
   return (
     <Container>
@@ -30,7 +28,6 @@ export default function Carousel() {
         modules={[Autoplay, Pagination, Navigation]}
         loop={true}
         className="mySwiper"
-        // direction={isMobile? "vertical" : "horizontal"}
       >
         {projetos.map((el: TProjetos, index: number) =>
           <SwiperSlide

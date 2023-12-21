@@ -7,7 +7,7 @@ export const Section = styled.section`
   flex-direction: column;
   background: url("https://i.imgur.com/XHHcits.png");
   min-height: 100vh;
-  
+
   & h1 {
     color: var(--verde);
     font-size: 32px;
@@ -17,24 +17,23 @@ export const Section = styled.section`
   }
 
   & .carousel-container {
-    height: 530px;
+    height: 100%;
     width: 100%;
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
   }
 
   @media (max-width: 1000px) {
     padding: var(--padding-600);
+    justify-content: flex-start;
+    height: 800px;
   }
 
   @media (max-width: 600px) {
     padding: var(--padding-400);
-    height: 100vh;
   }
 
   @media (max-width: 330px) {
-    height: 100%;
     justify-content: center;
   }
 `;

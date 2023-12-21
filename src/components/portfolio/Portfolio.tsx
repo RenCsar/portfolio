@@ -10,9 +10,9 @@ export const Portfolio = () => {
         <Fade direction="down" delay={100} duration={400} triggerOnce cascade>
           <h1>Portfólio</h1>
         </Fade>
-          <div className='carousel-container'>
-            <Carousel />
-          </div>
+        <div className='carousel-container'>
+          <Carousel />
+        </div>
       </Section>
     </Element>
   )

@@ -44,8 +44,6 @@ export const Container = styled.section`
   }
 
   @media (max-width: 650px) {
-    padding: var(--padding-400);
-
     & .content {
       & h3 {
         font-size: 28px;

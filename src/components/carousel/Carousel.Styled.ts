@@ -1,5 +1,10 @@
 import styled from "styled-components";
-import { flexCenter, imgConfig, imgSize, rep } from "../../utils/globalStyledComponents";
+import {
+  flexCenter,
+  imgConfig,
+  imgSize,
+  rep,
+} from "../../utils/globalStyledComponents";
 
 export const Container = styled.div`
   ${rep};
@@ -127,22 +132,16 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: 600px) {
-    & .mySwiper {
-      width: 500px;
-    }
-  }
-
   @media (max-width: 500px) {
     & .mySwiper {
       width: 390px;
       height: 550px;
 
       & .swiper-button-next::after,
-    .swiper-button-prev::after {
-      color: var(--verde);
-      display: none;
-    }
+      .swiper-button-prev::after {
+        color: var(--verde);
+        display: none;
+      }
     }
 
     & .container-geral {
