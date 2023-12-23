@@ -1,5 +1,18 @@
 [
   {
+    "nome": "Natal Solidário",
+    "tecnologias": [
+      "HTML5",
+      "CSS3",
+      "Javascript"
+    ],
+    "descricao": "Que tal ser um presente no natal de uma criança? O projeto Natal Solidário consiste em um site responsivo que tem o objetivo de contribuir para um natal inesquecível para milhares de crianças.",
+    "img": "https://i.imgur.com/UNEeWDk.gif",
+    "imgBg": "https://i.imgur.com/UNEeWDk.gif",
+    "site": "https://natal-solidario-app.vercel.app/",
+    "repositorio": "https://github.com/RenCsar/natal-solidario"
+  },
+  {
     "nome": "SelfCare",
     "tecnologias": [
       "HTML5",
