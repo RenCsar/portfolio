@@ -7,8 +7,8 @@
       "Javascript"
     ],
     "descricao": "Que tal ser um presente no natal de uma criança? O projeto Natal Solidário consiste em um site responsivo que tem o objetivo de contribuir para um natal inesquecível para milhares de crianças.",
-    "img": "https://i.imgur.com/UNEeWDk.gif",
-    "imgBg": "https://i.imgur.com/UNEeWDk.gif",
+    "img": "https://i.imgur.com/yrQBUTT.mp4",
+    "imgBg": "https://i.imgur.com/yrQBUTT.mp4",
     "site": "https://natal-solidario-app.vercel.app/",
     "repositorio": "https://github.com/RenCsar/natal-solidario"
   },
@@ -20,7 +20,7 @@
       "Javascript"
     ],
     "descricao": "O projeto consiste em um site para venda de itens de cuidado pessoal com layout responsivo focando na acessibilidade e SEO. Nele é possível adicionar e remover itens ao carrinho, além de ter uma página de perfil com informações do usuário.",
-    "img": "https://i.imgur.com/VREoSxU.gif",
+    "img": "https://i.imgur.com/SVnA74y.mp4",
     "imgBg": "https://i.imgur.com/J3eKh45.png",
     "site": "https://vnw-desafio-final-m1.vercel.app/",
     "repositorio": "https://github.com/RenCsar/VNW-Desafio-final-M1"
@@ -34,7 +34,7 @@
       "Express"
     ],
     "descricao": "Site de notícias onde os usuários podem criar, editar, apagar suas noticías e acessar, curtir e comentar as notícias de outros usuários.",
-    "img": "https://i.imgur.com/XxSQRmf.gif",
+    "img": "https://i.imgur.com/ycvBKj8.mp4",
     "imgBg": "https://i.imgur.com/DlDfIKr.png",
     "site": "https://breaknews.vercel.app/",
     "repositorio": "https://github.com/RenCsar/breaknews"
@@ -48,7 +48,7 @@
       "Express"
     ],
     "descricao": "O projeto consiste em um e-commerce responsivo focando na acessibilidade e SEO. Nele é possível adicionar itens ao carrinho, escolher a quantidade de cada item, retirar itens e limpar o carrinho.",
-    "img": "https://i.imgur.com/omqKrqo.gif",
+    "img": "https://i.imgur.com/RXjTuNN.mp4",
     "imgBg": "https://i.imgur.com/DlDfIKr.png",
     "site": "https://tech-shopping.vercel.app/",
     "repositorio": "https://github.com/RenCsar/TECH-shopping"
@@ -62,7 +62,7 @@
       "JQuery"
     ],
     "descricao": "O projeto é a recriação da interface de uma plataforma de streaming de vídeos com um propósito educacional. Demonstra o potencial de tecnologias simples como HTML5, CSS3 e JavaScript.",
-    "img": "https://i.imgur.com/YWbXOLF.gif",
+    "img": "https://i.imgur.com/WXEppNW.mp4",
     "imgBg": "https://i.imgur.com/sag2mR1.png",
     "site": "https://recriando-a-interface-do-netflix.vercel.app/",
     "repositorio": "https://github.com/RenCsar/Recriando-a-interface-do-Netflix"
@@ -75,7 +75,7 @@
       "Chakra UI"
     ],
     "descricao": "O projeto é um e-commerce com funcionalidades de adicionar, remover e limpar itens do carrinho, além de emitir um comprovante de compra. Utiliza Redux para gerenciar estados dos produtos no carrinho e lista de favoritos.",
-    "img": "https://i.imgur.com/P1N2OF3.gif",
+    "img": "https://i.imgur.com/XMLRcZN.mp4",
     "imgBg": "https://i.imgur.com/a2DzLDT.png",
     "site": "https://pokestore-redux.vercel.app/",
     "repositorio": "https://github.com/RenCsar/pokestore-redux"
@@ -89,7 +89,7 @@
       "Yup"
     ],
     "descricao": "O projeto é um catálogo de filmes e séries desenvolvido em React. Utiliza o Axios para consumir a API de filmes da The Movie Database, proporcionando uma ampla variedade de opções de entretenimento.",
-    "img": "https://i.imgur.com/YPVzWNC.gif",
+    "img": "https://i.imgur.com/0kJS21p.mp4",
     "imgBg": "https://i.imgur.com/x5lpxeR.png",
     "site": "https://site-filmes-e-series.vercel.app/",
     "repositorio": "https://github.com/RenCsar/Site-filmes-e-series"
@@ -102,7 +102,7 @@
       "Javascript"
     ],
     "descricao": "O projeto é uma lista de tarefas desenvolvida com HTML, CSS e JavaScript, oferecendo uma solução simples e eficiente para gerenciar suas atividades diárias.",
-    "img": "https://i.imgur.com/smM01MD.gif",
+    "img": "https://i.imgur.com/Mbef6uG.mp4",
     "imgBg": "https://imgur.com/X9OvbuA.png",
     "site": "",
     "repositorio": "https://github.com/RenCsar/remind-clone-1"
@@ -116,7 +116,7 @@
       "Fetch APi"
     ],
     "descricao": "O projeto foi desenvolvido em Next.js com Typescript e Tailwind e que consome a API que trás uma lista de Pokémons.",
-    "img": "https://i.imgur.com/S2IuHaT.gif",
+    "img": "https://i.imgur.com/tWPDsr5.mp4",
     "imgBg": "https://i.imgur.com/MFLTkSm.png",
     "site": "https://rc-pokenext.vercel.app/",
     "repositorio": "https://github.com/RenCsar/pokenext"

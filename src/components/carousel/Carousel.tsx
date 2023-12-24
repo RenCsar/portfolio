@@ -37,7 +37,10 @@ export default function Carousel() {
             <div className="container-geral">
               <div className="col-1">
                 <div className="img-container">
-                  <img src={el.img} alt="Imagem do projeto" />
+                  <video autoPlay loop muted style={{borderRadius: "10px"}}>
+                    <source src={el.img} type="video/mp4" />
+                      Seu navegador não suporta o elemento de vídeo.
+                  </video>
                 </div>
                 <div className="tec-container">
                   {el.tecnologias.map((elem: string) =>

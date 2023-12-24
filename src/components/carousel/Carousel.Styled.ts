@@ -48,7 +48,7 @@ export const Container = styled.div`
         & .img-container {
           ${imgConfig}
 
-          > img {
+          > img, video {
             ${imgConfig}
           }
         }
@@ -154,7 +154,7 @@ export const Container = styled.div`
           height: 200px !important;
           width: 320px !important;
 
-          > img {
+          > img, video {
             height: 200px !important;
             width: 320px !important;
           }
@@ -203,7 +203,7 @@ export const Container = styled.div`
           height: 150px !important;
           width: 270px !important;
 
-          > img {
+          > img, video {
             height: 150px !important;
             width: 270px !important;
           }
