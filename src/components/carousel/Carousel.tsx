@@ -39,6 +39,7 @@ export default function Carousel() {
                 <div className="img-container">
                   <video autoPlay loop muted style={{borderRadius: "10px"}}>
                     <source src={el.img} type="video/mp4" />
+                    <track src="" kind="captions" srcLang={"pt"} label="pt_captions"></track>
                       Seu navegador não suporta o elemento de vídeo.
                   </video>
                 </div>

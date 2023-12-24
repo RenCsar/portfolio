@@ -6,10 +6,10 @@ const Footer = () => {
     return (
         <Container>
             <div className="icon-container">
-                <a href="https://www.linkedin.com/in/renan-cesar/" target={'blank'}>
+                <a href="https://www.linkedin.com/in/renan-cesar/" aria-label="Perfil do linkedin" target={'blank'}>
                     <FaLinkedinIn size={41} fill={'white'} />
                 </a>
-                <a href="https://github.com/renCsar" target={'blank'}>
+                <a href="https://github.com/renCsar" aria-label="Perfil do Github" target={'blank'}>
                     <TfiGithub size={41} fill={'white'} />
                 </a>
             </div>
