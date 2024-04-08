@@ -1,5 +1,33 @@
 [
   {
+    "nome": "SquadUp",
+    "tecnologias": [
+      "React JS",
+      "Typescript",
+      "Node JS",
+      "Express"
+    ],
+    "descricao": "SquadUp é uma plataforma que tem como objetivo conectar empresas aos melhores profissionais do mercado. De uma forma rápida, você consegue montar a Squad ideal para o seu projeto.",
+    "img": "https://i.imgur.com/TN7UgxC.mp4",
+    "imgBg": "",
+    "site": "https://squadup-livid.vercel.app/",
+    "repositorio": "https://github.com/RenCsar/squadup"
+  },
+  {
+    "nome": "Breaknews",
+    "tecnologias": [
+      "React JS",
+      "Typescript",
+      "Node JS",
+      "Express"
+    ],
+    "descricao": "Site de notícias onde os usuários podem criar, editar, apagar suas noticías e acessar, curtir e comentar as notícias de outros usuários.",
+    "img": "https://i.imgur.com/ycvBKj8.mp4",
+    "imgBg": "",
+    "site": "https://breaknews.vercel.app/",
+    "repositorio": "https://github.com/RenCsar/breaknews"
+  },
+  {
     "nome": "Natal Solidário",
     "tecnologias": [
       "HTML5",
@@ -24,20 +52,6 @@
     "imgBg": "",
     "site": "https://vnw-desafio-final-m1.vercel.app/",
     "repositorio": "https://github.com/RenCsar/VNW-Desafio-final-M1"
-  },
-  {
-    "nome": "Breaknews",
-    "tecnologias": [
-      "React JS",
-      "Typescript",
-      "Node JS",
-      "Express"
-    ],
-    "descricao": "Site de notícias onde os usuários podem criar, editar, apagar suas noticías e acessar, curtir e comentar as notícias de outros usuários.",
-    "img": "https://i.imgur.com/ycvBKj8.mp4",
-    "imgBg": "",
-    "site": "https://breaknews.vercel.app/",
-    "repositorio": "https://github.com/RenCsar/breaknews"
   },
   {
     "nome": "Tech Shopping",
