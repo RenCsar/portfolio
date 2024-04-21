@@ -15,4 +15,4 @@ const ButtonCvc = ({ texto, link }: TButton) => {
   )
 }
 
-export default ButtonCvc
+export default ButtonCvc;

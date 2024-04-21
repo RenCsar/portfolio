@@ -1,12 +1,11 @@
-import { Container } from './sobreMin.Styled'
-import Perfil from '../../assets/bloob-renan-cesar.webp'
-import Button from '../button/Button'
+import { Container } from './sobreMin.Styled';
+import Perfil from '../../assets/bloob-renan-cesar.webp';
+import Button from '../button/Button';
 import { Element } from 'react-scroll';
-import { Fade } from "react-awesome-reveal"
+import { Fade } from 'react-awesome-reveal';
+import { linkContato } from '../../utils/links';
 
 export const SobreMin = () => {
-
-    const linkContato: string = 'https://api.whatsapp.com/send?phone=5521990926768&text=sua%20mensagem';
 
     return (
         <Element name='sobremim'>
@@ -32,4 +31,4 @@ export const SobreMin = () => {
             </Container>
         </Element>
     )
-}
+};

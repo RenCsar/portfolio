@@ -1,5 +1,5 @@
-import { Container } from "./Header.Styled"
-import Logo from '../../assets/logo.png'
+import { Container } from "./Header.Styled";
+import Logo from "../../assets/logo.png";
 import Nav from "../nav/Nav";
 
 export const Header = () => {
@@ -13,4 +13,4 @@ export const Header = () => {
       </div>
     </Container>
   )
-}
+};

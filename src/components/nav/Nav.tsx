@@ -1,6 +1,3 @@
-import React from 'react';
-import * as Scroll from 'react-scroll';
-import { Link } from 'react-scroll';
 import { NavContainer, StyledNavLink } from './Nav.Styled';
 
 const Nav = () => {
@@ -14,15 +11,15 @@ const Nav = () => {
     return (
         <NavContainer>
             <ul>
-                {menuItems.map((item, index) => (
+                {menuItems.map((item) => (
                     <li key={item.to}>
                         <StyledNavLink
                             to={item.to}
-                            spy={true} 
-                            smooth={true} 
+                            spy={true}
+                            smooth={true}
                             duration={800}
                             activeClass="active"
-                            className='nav-item'
+                            className="nav-item"
                         >
                             {item.label}
                         </StyledNavLink>
@@ -33,4 +30,4 @@ const Nav = () => {
     )
 }
 
-export default Nav
+export default Nav;

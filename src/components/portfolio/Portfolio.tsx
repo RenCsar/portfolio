@@ -1,7 +1,7 @@
-import { Element } from 'react-scroll'
-import { Section } from './Portfolio.Styled'
-import Carousel from '../carousel/Carousel'
-import { Fade } from "react-awesome-reveal"
+import { Element } from 'react-scroll';
+import { Section } from './Portfolio.Styled';
+import Carousel from '../carousel/Carousel';
+import { Fade } from 'react-awesome-reveal';
 
 export const Portfolio = () => {
   return (
@@ -16,4 +16,4 @@ export const Portfolio = () => {
       </Section>
     </Element>
   )
-}
+};

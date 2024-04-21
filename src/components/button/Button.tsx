@@ -1,10 +1,10 @@
-import { TButton } from "../../utils/types/types"
-import { Container } from "./Button.Styled"
+import { TButton } from "../../utils/types/types";
+import { Container } from "./Button.Styled";
 
 const Button = ({ texto, link }: TButton) => {
     return (
         <Container link={link}>
-            <a href={link} target="blank">
+            <a href={link} target="_blank">
                 <button
                     disabled={link == "" ? true : false}
                 >
@@ -15,4 +15,4 @@ const Button = ({ texto, link }: TButton) => {
     )
 }
 
-export default Button
+export default Button;
