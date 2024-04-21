@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Container } from "./Carousel.Styled";
-import projetos from '../../utils/projetos.json'
+import projetos from '../../utils/json/projetos.json'
 import { TProjetos } from "../../utils/types/types";
 import Button from "../button/Button";
 
